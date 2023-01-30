@@ -1,0 +1,288 @@
+body {
+	background: #eae8eb;
+}
+
+#granolatitulo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#imglogo{
+	margin-right: 20px; 
+	border-radius: 30px;
+}
+
+
+#tituloPag {
+	font-family: Verdana;
+	font-size: 42px;
+	text-align: center;
+	color: #27302f;
+	margin-bottom: 50px;
+}
+
+nav {
+	text-align: center;
+	margin-bottom: 50px;
+	font-family: verdana;
+}
+
+#granoleando{
+	font-family: verdana;
+	text-align: center;
+	border-radius: 1px solid black;
+	
+
+
+}
+
+div table tr td{
+	border: 1px solid black;
+	height: 100px;
+	
+	
+	
+}
+
+.img1{
+	width: 350px;
+}
+
+
+
+#granolapremium{
+	font-family: Verdana;
+	color: white;
+	height: 420px;
+	text-align: center;
+	border: 2px solid #27302f;
+	border-radius: 20px;
+	background: #b26f63;
+	display:flex;
+	justify-content: center;
+}
+
+
+ul li {
+	padding: 10px;
+	display: inline;
+	padding: 50px;
+}
+
+nav ul li a {
+	color: white;
+	border: 2px solid #27302f;
+	border-radius: 20px;
+	background: #b26f63;
+	padding: 10px;
+	text-decoration: none;
+}
+
+#quienessomos {
+	font-family: Verdana;
+	color: white;
+	height: 420px;
+	text-align: center;
+	border: 2px solid #27302f;
+	border-radius: 20px;
+	background: #b26f63;
+}
+
+section{
+	display: flex;
+	justify-content: space-between;
+}
+
+div #oferta1 {
+	border: 2px solid #27302f;
+	width: 650px;
+	border-radius: 20px;
+	background: #b26f63;
+}
+
+#idPack {
+	text-align: center;
+	
+}
+
+div #oferta2 {
+	border: 2px solid #27302f;
+	width: 650px;
+	border-radius: 20px;
+	background: #b26f63;
+}
+
+#granolacereal {
+	width: 250px;
+	height: 250px;
+	/* border: 2px solid #27302f; */
+	margin-left: 180px;
+	margin-top: 25px;
+
+}
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 25px;
+	border: 2px solid #27302f;
+	border-radius: 20px;
+	height: 100px;
+	font-family: Verdana;
+	
+}
+
+p{
+	margin-left: 20px;
+	margin-right: 20px;
+	color: white;
+	text-align: center;
+	font-family: Verdana;
+}
+
+#granoleando {
+	font-size: large;
+	font-weight: bolder;
+	margin-bottom: -5px;
+}
+
+
+#granolita {
+	width: 120px;
+	height: 120px;
+}
+
+#copyright{
+	color: black;
+	width: 50%;
+	font-size: 10px;
+}
+#equipo{
+	margin-left: 10px;
+	width: 50%;
+	font-size: 10px;
+}
+#contacto{
+	font-family: verdana;
+	font-size: 13px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
+fieldset{
+    background: #b26f63;
+    border: 2px solid #27302f;
+    border-radius: 1em;
+    padding: 1em;
+}
+form{
+    margin: .5em auto;
+    width: 50%;
+}
+#tituloformulario{
+    color: white;
+    font-size: 2em;
+}
+label{
+    font-family: sans-serif;
+    color: #dbf3f0;
+    cursor: pointer;
+}
+input[type="button"]{
+    background: #eae8eb;
+	border: thin solid transparent;
+    border-radius: .2em;
+    color: #8d5d5b;
+    cursor: pointer;
+    font-size: 1em;
+    padding: .5em;
+}
+
+input[type="button"]:hover{
+    background: skyblue;
+    border: thin solid lavender;
+    border-radius: 0;
+    color: #8d5d5b;
+}
+input[type="radio"], label{
+    cursor: pointer;
+}
+input[type="text"],input[type=email],textarea{
+    background: #eae8eb;
+    border-radius: .3em;
+    border: thin solid skyblue;
+    color: #8d5d5b;
+    padding:.25em;
+    font-size: 1 em;
+    }
+textarea{
+    resize: none;
+}
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus{
+    background: #eae8eb;
+}
+
+#seguimientoform{
+	display: flex;
+    justify-content: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	
+}
+
+#seguimientofieldset{
+    background: #b26f63;
+    border: 2px solid #27302f;
+    border-radius: 1em;
+    padding: 1em;
+	
+	
+    
+}
+
+#seguimientolabel{
+    font-family: sans-serif;
+    color: black;
+    cursor: pointer;
+}
+#seguimientoh1{
+	color: white;
+	font-size: 20px;
+	text-align: center;
+}
+
+#seguimientoboton[type="button"]{
+    background: #eae8eb;
+    border-radius: .2em;
+    color: black;
+    cursor: pointer;
+    font-size: 1em;
+    padding: .3em;
+    margin-left: 230px;
+}
+
+#seguimientoboton[type="button"]:hover{
+    background: skyblue;
+    color: #8d5d5b;
+}
+
+#seguimientotexto[type="text"],input[type=busqueda],textarea{
+	width: 800px;
+    background: #eae8eb;
+    border-radius: .3em;
+    border: thin solid skyblue;
+    color: #8d5d5b;
+    padding:.25em;
+    font-size: 1em;
+}
+
+#seguimientotexto{
+	height: 30px;
+	width: 60px;
+	background-color: #b26f63;
+	margin: 5px;
+	margin-top: auto;
+}
